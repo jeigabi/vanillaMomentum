@@ -43,7 +43,7 @@ const quotes = [
 ];
 
 function getQuoteIndex() {
-    return Math.round(Math.random() * quotes.length);
+    return Math.floor(Math.random() * quotes.length);
 }
 
 const quote = document.querySelector("#quote span:first-child");
